@@ -1,3 +1,3 @@
 # Weather-Conditions-Classification
 ### Overview
-Performed PCA and Randomized PCA and trained a CNN to achieve 85% accuracy in identifying different types of weather, a huge improvement over K-nearest neighbors classification which only achieved 63% accuracy.
+Performed PCA and Randomized PCA and trained a CNN to achieve 85% accuracy in identifying different types of weather, a huge improvement over K-nearest neighbors classification which only achieved 63% accuracy. We then decided to take it a step further and do transfer learning starting with a pre-trained Resnet model and fine-tuning it to our data. This strategy yielded a 97.33% accuracy score. Find full implementation in main.ipynb and more information about Resnet here: https://www.run.ai/guides/deep-learning-for-computer-vision/pytorch-resnet#What-are-the-Options
